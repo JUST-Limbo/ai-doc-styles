@@ -1,0 +1,35 @@
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+
+# 环境变量与密钥（勿提交）
+.env
+.env.local
+.env.*.local
+
+# 日志
+*.log
+logs/
+
+# Node（若后续加入 Markdown/格式工具链）
+node_modules/
+
+# Python（若后续加入脚本）
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 构建与缓存
+.cache/
+dist/
+build/
+
+# 本地草稿或个人笔记（按需使用）
+.local/
