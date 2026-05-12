@@ -1,18 +1,18 @@
-> **单一事实源**：本文件为仓库内中文技术文档体例的完整条文（整合自 [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide)，公共领域）。项目 `.cursor/rules/chinese-tech-writing.mdc` 仅声明 **何时必须读本文**（`*.md` 场景）并做索引，**不重复**下列作业纪律与体例条文。**如何按任务阅读本文**见下「给 Agent 的读取与编排」；**AI 作业纪律**见下「AI操作文档注意事项」。**条文维护以本文件为准**。
+> **单一事实源**：本文件为仓库内**对外发表用中文技术文章**（如掘金等技术社区博文）体例的完整条文（整合自 [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide)，公共领域）。项目 `.cursor/rules/chinese-tech-writing.mdc` 仅声明 **何时必须读本文**（`*.md` 场景）并做索引，**不重复**下列作业纪律与体例条文。**如何按任务阅读本文**见下「给 Agent 的读取与编排」；**AI 作业纪律**见下「AI操作文档注意事项」。**条文维护以本文件为准**。
 
-# 中文技术文档写作规范
+# 中文对外技术文章写作规范
 
-以下内容整合自开源仓库 [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide)（许可：公共领域）。编写或修订中文技术文档、Markdown 时请遵循。
+以下内容整合自开源仓库 [ruanyf/document-style-guide](https://github.com/ruanyf/document-style-guide)（许可：公共领域）。编写或修订**面向公开发表**的中文技术文章及其 **Markdown** 稿时请遵循。
 
 ---
 
 ## 给 Agent 的读取与编排
 
-凡涉及本仓库内中文技术 **Markdown** 的编写、审校或体例裁决，须以本文为体例依据。
+凡涉及本仓库内、**且属于对外技术文章稿件**的中文 **Markdown** 的编写、审校或体例裁决，须以本文为体例依据。若当前任务明确是业务文档、接口说明等而非对外博文，不要主动套用本文；用户若要求「按本规范」处理非文章类 Markdown，再按用户指示执行。
 
 ### 必须先读本文的时机与范围
 
-- **默认**：用 Read 读取本文件（`docs/style/chinese-tech-writing.md`）的**当前全文**后再改；不要仅凭记忆或旧对话摘要套用细则。
+- **默认**：用 Read 读取本文件（`.cursor/writing-guide/chinese-tech-writing.md`）的**当前全文**后再改；不要仅凭记忆或旧对话摘要套用细则。
 - **例外**：同一会话内已读过且你确认本文件未被他人离线修改时，可不再重复 Read，但仍须以目标 `.md` 文件的当前内容为准。
 
 ### 按任务粗略分流（仍须以全文为准做交叉检查）
