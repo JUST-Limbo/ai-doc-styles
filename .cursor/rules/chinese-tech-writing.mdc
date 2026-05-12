@@ -1,5 +1,5 @@
 ---
-description: 中文技术文档：Markdown 触发 + 必读 docs/style/chinese-tech-writing.md（纪律与体例均在事实源内）
+description: 中文技术文档：Markdown 触发 + 必读本地 docs/style；远端地址仅供人工同步规范版本时参考
 globs: "**/*.md"
 alwaysApply: false
 ---
@@ -9,5 +9,7 @@ alwaysApply: false
 在编写、审阅或批量修订本仓库内中文技术 **Markdown** 时：体例、示例与 **AI 作业纪律**（先读目标文件、旧文不大改、改后总结、交叉引用检查、可选章节等）一律以 **`docs/style/chinese-tech-writing.md`** 为**单一事实源**；**本文件不在此重复列举**，以免与事实源漂移。
 
 凡涉及体例判断或正文改写，**必须先**用 Read 读取该文件**当前全文**再动手；不要仅凭记忆或旧对话摘要套用细则。若同一会话内已读过且你确认该文件未被他人离线改写，可不再重复 Read，但仍须以目标 `.md` 的当前内容为准。
+
+**本仓库地址（规范发布源，供人工同步参考）**：写作规范事实源为本仓库内的 **`docs/style/chinese-tech-writing.md`**。本仓库远端为 **[https://github.com/JUST-Limbo/ai-doc-styles](https://github.com/JUST-Limbo/ai-doc-styles)**；需要拿到「已发布到远端」的最新版时，由维护者在本机执行 `git pull origin main` 或在新目录 `git clone` 后再阅读上述路径即可。**本条仅为说明文字，不触发任何自动联网或 git 操作**；Agent 在对话中**默认只 Read 工作区内的该文件**，除非用户明确要求，否则不要为「探查最新规范」而执行 git 或访问 GitHub。体例条文的历史整合与许可说明见事实源文件文首，此处不重复。
 
 **编排**（何时强调全文、何时可按章节侧重 Read）：见该文件中的 **「给 Agent 的读取与编排」**（在文首摘要段之后、体例各章之前）。**作业纪律**：见同文件 **「AI操作文档注意事项」**。
